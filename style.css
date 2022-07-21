@@ -1,0 +1,836 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menuarea {
+    background-color: rgb(255, 94, 0);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headtext {
+    color: white;
+    text-decoration: underline;
+    font-size: 17px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.headtext :hover {
+    opacity: 0.50;
+    cursor: pointer;
+}
+
+.language {
+    width: 30px;
+    border-radius: 100%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.langarea :hover {
+    opacity: 0.50;
+    background-color: rgba(255, 255, 255, 0.541);
+    cursor: pointer;
+}
+
+.language2 {
+    width: 30px;
+    padding: 20px;
+}
+
+.language3 {
+    width: 55px;
+    margin-top: 10px;
+}
+
+.held {
+    color: white;
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.titlepic {
+    background-image: url("piccs/pexels-photo-2619967.jpeg");
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    width: 1200px;
+    background-position-y: 50%;
+    min-height: 200px;
+    display: flex;
+}
+
+.mainpage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.PizzaLaStrada {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    width: 1120px;
+    padding: 15px;
+}
+
+.star {
+    color: rgb(255, 115, 0);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pizzapic {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-top: -85px;
+    margin-right: 150px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.pi {
+    margin-left: -65px;
+}
+
+.btn {
+    background-color: white;
+    border: 1px #919191 solid;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px #fb6100 solid;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: white;
+    border: 1px #919191 solid;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    border: 1px #1900fb solid;
+    cursor: pointer;
+}
+
+.btnpic {
+    height: 20px;
+    width: 20px;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.choose {
+    display: flex;
+    align-items: center;
+    background-color: #f8f5f2;
+    padding: 12px 14px;
+    overflow: auto;
+    white-space: nowrap;
+    position: sticky;
+    height: 40px;
+    width: 1050px;
+    padding: 10px;
+    margin-left: 20px;
+    margin: 10px;
+}
+
+.textchoose {
+    color: #929292;
+    font-size: 18px;
+}
+
+.lupe {
+    width: 15px;
+    padding: 10px;
+}
+
+.ri {
+    text-decoration: none;
+    color: #838181;
+}
+
+.textchoose :hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.beliebt {
+    display: flex;
+    align-items: center;
+    background-color: #f8f5f2;
+    padding: 12px 14px;
+    overflow: auto;
+    white-space: nowrap;
+    position: sticky;
+    height: 40px;
+    width: 1050px;
+    padding: 10px;
+    margin-left: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.food-container {
+    padding: 16px 14px;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 1040px;
+    margin-left: 10px;
+    margin: 10px;
+}
+
+.addbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    color: #125fca;
+    border-left: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    border-top: 0;
+    border-right: 0;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.addbtn:hover {
+    border: 2px grey solid;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f8f5f2;
+    padding: 12px 14px;
+    overflow: auto;
+    white-space: nowrap;
+    position: sticky;
+    height: 60px;
+    width: 1050px;
+    padding: 10px;
+    margin-left: 20px;
+    margin: 10px;
+}
+
+.gi {
+    font-size: 20px;
+}
+
+.fi {
+    font-size: 13px;
+    color: #929292;
+}
+
+.impressum {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 10vh;
+    width: 1100px;
+    margin-left: 10px;
+    padding-top: 50px;
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    background-color: rgba(7, 17, 46, 0.877);
+}
+
+.rt {
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.font {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.rt :hover {
+    text-decoration: underline;
+    color: #fb6100;
+    cursor: pointer;
+}
+
+.rti {
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.rti :hover {
+    text-decoration: underline;
+    color: #fb6100;
+    cursor: pointer;
+}
+
+.warenkorb {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    position: fixed;
+    right: 0px;
+    top: 10vh;
+    width: 318px;
+    max-height: 62vh;
+    overflow-y: scroll;
+    margin-top: 72px;
+    z-index: 10;
+    background-color: white;
+}
+
+.baskethead1 {
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+.baskethead {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.basketunderhead {
+    font-size: 13px;
+    color: #929292;
+    padding: 10px;
+    text-align: center;
+}
+
+.baskettext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    position: fixed;
+    background-color: white;
+    height: 50vh;
+}
+
+.basketpic {
+    width: 35px;
+    padding: 10px;
+}
+
+.basketstyle {
+    border: 1px solid #d7d7d7;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    right: 0px;
+    top: 75px;
+    width: 297px;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+}
+
+.containertop {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.containermiddle {
+    font-size: 13px;
+    color: #5a5a5a;
+}
+
+.containermiddle2 {
+    font-size: 13px;
+    color: #5a5a5a;
+}
+
+.containerbottom {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.containerbottom2 {
+    color: #fb6100;
+}
+
+.d-none {
+    display: none;
+}
+
+.p-info {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 300;
+    color: #125fca;
+    transition: ease-in-out 150ms;
+    padding-left: 6px;
+}
+
+.p-info:hover {
+    text-decoration: underline;
+}
+
+.basketchangestyle {
+    font-size: 50px;
+    color: #2e00fb;
+}
+
+.basketnew {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 1px;
+}
+
+.class1 {
+    font-size: 13px;
+    padding: 10px;
+}
+
+.class2 {
+    font-size: 13px;
+    color: #5a5a5a;
+    padding: 10px;
+}
+
+.class3 {
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 50px;
+    color: #5c5c5c;
+}
+
+.class4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.classcolor {
+    font-size: 13px;
+    color: #125fca;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.classcolor:hover {
+    color: #062f69;
+}
+
+.btnpizza1 {
+    background-color: white;
+    border: 1px #adacac solid;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: #125fca;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnpizza1:hover {
+    border: 2px #125fca solid;
+    cursor: pointer;
+}
+
+.btnpizza2 {
+    background-color: white;
+    border: 1px #adacac solid;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: #125fca;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnpizza2:hover {
+    border: 2px #125fca solid;
+    cursor: pointer;
+    color: orange;
+}
+
+.class5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sticky {
+    display: flex;
+    flex-direction: row;
+}
+
+.price-calc-container {
+    font-size: 14px;
+    padding: 16px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.price-calc {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pay-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pay {
+    color: white;
+    background-color: #125fca;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 32px;
+    width: 100%;
+    min-height: 3.5rem;
+    cursor: pointer;
+}
+
+.itemAmount {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding-left: 3px;
+    font-size: 13px;
+}
+
+.idchange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-basket {
+    display: none;
+    position: fixed;
+}
+
+.mobilenewbasket {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.frogbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnx1 {
+    background-color: white;
+    border: 1px #adacac solid;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: #125fca;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.btnx1:hover {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px #10038b solid;
+}
+
+
+/*just-for-smartphones*/
+
+@media(max-width:1000px) {
+    .warenkorb {
+        display: none;
+    }
+    .basketstyle {
+        display: none;
+    }
+    .held {
+        font-size: 45px;
+        padding: 10px;
+        margin: unset;
+    }
+    .headtext {
+        font-size: 25px;
+    }
+    .language {
+        width: 20px;
+    }
+    .language2 {
+        width: 20px;
+    }
+    .titlepic {
+        width: 950px;
+    }
+    .menuarea {
+        width: 950px;
+    }
+    .pizzapic {
+        display: flex;
+        justify-content: center;
+    }
+    .language3 {
+        display: none;
+    }
+    .langarea {
+        width: 150px;
+    }
+    .PizzaLaStrada {
+        width: 920px;
+    }
+    .choose {
+        width: 930px;
+        height: unset;
+        margin: unset;
+    }
+    .ri {
+        font-size: 17px;
+    }
+    .mainpage {
+        margin-left: unset;
+        margin-right: unset;
+        width: 950px;
+        margin: unset;
+    }
+    .flex2 {
+        width: 90px;
+    }
+    .beliebt {
+        width: 950px;
+        margin-left: unset;
+        margin-right: unset;
+        display: flex;
+        justify-content: center;
+        padding: unset;
+    }
+    .food-container {
+        width: 820px;
+        margin-left: 50px;
+        margin-right: 20px;
+        height: 150px;
+        font-size: 22px;
+    }
+    .p-info {
+        font-size: 18px;
+    }
+    .containermiddle2 {
+        font-size: 20px;
+    }
+    .containerbottom2 {
+        font-size: 20px;
+    }
+    .info {
+        width: 930px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        height: unset;
+    }
+    .gi {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .fi {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .impressum {
+        width: 950px;
+        margin: unset;
+        height: 20vh;
+    }
+    .footer {
+        margin: unset;
+        width: 950px;
+        height: 30vh;
+    }
+    .mobile-basket {
+        display: flex !important;
+        position: fixed;
+        justify-content: center;
+        color: white;
+        background-color: #146eeb;
+        border-radius: 3px;
+        font-size: 20px;
+        font-weight: 500;
+        min-height: 76px;
+        position: fixed;
+        bottom: 1%;
+        width: 900px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .waren {
+        padding: 25px;
+    }
+    .mobile-basket:hover {
+        cursor: pointer;
+    }
+    .mobilenewbasket {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        background-color: white;
+        width: 850px;
+        height: 220vh;
+        padding: 50px;
+        overflow-y: scroll;
+        text-align: center;
+    }
+    .d-none {
+        display: none;
+    }
+    .btnx {
+        background-color: white;
+        border: 1px #adacac solid;
+        height: 45px;
+        width: 45px;
+        font-size: 25px;
+        color: #125fca;
+        cursor: pointer;
+    }
+    .btnx:hover {
+        color: orange;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px #0000aa solid;
+    }
+    .btnxv {
+        background-color: white;
+        border: 1px #adacac solid;
+        height: 45px;
+        width: 45px;
+        font-size: 25px;
+        color: #125fca;
+        cursor: pointer;
+        margin-left: -880px;
+        margin-top: -40px;
+    }
+    .btnxv:hover {
+        color: orange;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px #0000aa solid;
+    }
+    .btnxbox {
+        width: 900px;
+    }
+    .addbtn {
+        width: 90px;
+        height: 183px;
+        font-size: 25px;
+    }
+    .btnpizza1 {
+        background-color: white;
+        border: 1px #adacac solid;
+        height: 45px;
+        width: 45px;
+        font-size: 25px;
+        color: #125fca;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .btnpizza1:hover {
+        color: orange;
+    }
+    .btnpizza2 {
+        background-color: white;
+        border: 1px #adacac solid;
+        height: 45px;
+        width: 45px;
+        font-size: 25px;
+        color: #125fca;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .btnpizza2:hover {
+        color: orange;
+    }
+    .itemAmount {
+        font-size: 20px;
+    }
+    .class1 {
+        font-size: 20px;
+    }
+    .class3 {
+        font-size: 20px;
+    }
+    .class2 {
+        font-size: 20px;
+    }
+    .classcolor {
+        font-size: 20px;
+    }
+    .price-calc {
+        font-size: 20px;
+        padding: 15px;
+        margin: unset;
+        gap: 5px;
+    }
+}

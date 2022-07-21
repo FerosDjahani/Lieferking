@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lieferking</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+
+<body onload="renderMenu()">
+    <div class="website">
+        <div class="website2">
+
+            <div class="menuarea">
+                <div class="logo">
+                    <img class="language3" src="piccs/restaurant-4-128.png">
+                    <div class="held"><b>LieferKing</b></div>
+                </div>
+                <span class="headtext">
+                    <b>Am Eulenweg 12, 502887 Weststadt</b>
+                </span>
+                <div class="langarea">
+                    <img class="language" src="piccs/header-flag.png">
+                    <img class="language2" src="piccs/menu-4-32.png">
+                </div>
+            </div>
+            <div class="titlepic">
+            </div>
+        </div>
+        <div class="website3">
+            <div class="website4">
+                <div id="scroll" class="basketstyle">
+                    <span class="baskethead1"> <b>Warenkorb</b></span>
+                </div>
+                <div class="warenkorb" id="basket">
+                    <div id="basketchange" class="baskettext">
+                        <img class="basketpic" src="piccs/2211057.png">
+                        <span class="baskethead"><b>Fülle deinen Warenkorb</b></span>
+                        <span class="basketunderhead"> Füge einige leckere Gerichte aus der Speisekarte hinzu und
+                            bestelle
+                            dein
+                            Essen.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="website5">
+                <div class="mainpage">
+                    <div class="PizzaLaStrada ">
+                        <div class="flex">
+                            <span class="pi"><b>Pizza La Strada</b></span>
+                            <span class="star">★★★★☆(1254 Bewertungen)</span>
+                        </div>
+                        <img class="pizzapic" src="piccs/1024px-Eucalyp-Deus_Pizza.png">
+                        <div class="flex2">
+                            <a href="#"><button class="btn2"><img class="btnpic" src="piccs/info-24.png"></button></a>
+                            <a href="#"><button class="btn"><img class="btnpic"
+                                        src="piccs/favorite-3-24.png"></button></a>
+                        </div>
+                    </div>
+                    <div class="choose">
+                        <a href="#"><img class="lupe" type="button" onclick="alert('Hier gibt es nichts zu suchen !')" src="piccs/lupe.png"></a>
+                        <div class="textchoose">&nbsp; &nbsp;<a class="ri" href="#" type="button" onclick="alert('Bei uns ist nichts Beliebt')">Beliebte Gerichte</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a class="ri" href="#" type="button" onclick="alert('Es gibt nichts besseres als eine Kalte Pizza')">Pizza</a>&nbsp; &nbsp;&nbsp;&nbsp;
+                            <a class="ri" href="#" type="button" onclick="alert('Bei uns gibt es nur Pizza ...der rest ist nur Deko')">Pasta</a> &nbsp;&nbsp;&nbsp;&nbsp;<a class="ri" href="#" type="button" onclick="alert('Bei uns gibt es nur Pizza ...der rest ist nur Deko')">
+                                Döner</a> &nbsp;&nbsp;&nbsp;&nbsp;<a class="ri" href="#" type="button" onclick="alert('Bei uns gibt es nur Pizza ...der rest ist nur Deko')"> Burger</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="ri" href="#" type="button" onclick="alert('Suppen?? Trink doch einfach Wasser wenn du Durst hast')">Suppen</a>                            &nbsp;&nbsp;&nbsp;&nbsp; <a class="ri" href="#" type="button" onclick="alert('Bei uns gibt es nur Pizza ...der rest ist nur Deko')">Teigwaren</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="ri" href="#" type="button" onclick="alert('Salat? was bist du ...ein Pferd?')">Salate</a>                            &nbsp;&nbsp;&nbsp;&nbsp; <a class="ri" href="#" type="button" onclick="alert('Bei uns gibts keine Desserts ...die kannst du auch im Supermarkt kaufen !')">Dessert</a>&nbsp; &nbsp;&nbsp;&nbsp; <a class="ri" href="#" type="button"
+                                onclick="alert('Trinken nimmt dir nur den Platz für das Essen weg')">Geränke</a>
+                        </div>
+                    </div>
+                    <div class="beliebt">
+                        <span><b>Beliebte Gerichte</b></span>
+                    </div>
+                    <div id="container">
+                    </div>
+                    <div class="info">
+                        <span class="gi"><b>Pizza</b></span>
+                        <br>
+                        <span class="fi">Alle Pizzen werden mit Tomatensauce und Käse zubereitet.</span>
+                    </div>
+                    <div id="container2">
+                    </div>
+                    <div class="impressum">
+                        <span class="gi"><b>Impressum</b></span>
+                        <br>
+                        <span class="fi">Bei Lieferking und der Pizzaria La Strada handelt es sich um fiktive Unternehmen, die Website wurde zu Übungszwecken erstellt. Hierbei handelt es sich um ein Projekt, welches der Fantasie des Entwicklers entsprungen ist.</span>
+                    </div>
+                </div>
+                <div class="mobilenewbasket d-none" id="viewmobile"></div>
+                <div class="mobile-basket d-none" onclick="showbasket()" id="basket-mobile">
+                    <span class="waren"><b>Warenkorb (0€)</b></span>
+                </div>
+                <div class="footer">
+                    <div class="rt">
+                        <a class="font" href>Ein Restaurant empfehlen</a>
+                        <a class="font" href>Ein Restaurant anmelden</a>
+                        <a class="font" href>Jobs</a>
+                        <a class="font" href>AGB</a>
+                        <a class="font" href>Datenschutzerklärung</a>
+                        <a class="font" href>Impressum</a>
+                        <a class="font" href>Verwendung von Cookies</a>
+                        <a class="font" href>Partnerseiten</a>
+                    </div>
+                    <div class="rt">
+                        <a class="font" href>Kunden-Hotline</a>
+                    </div>
+                    <div class="rt">
+                        <a class="font" href> © 2022 Developer Akademie</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
